@@ -9,11 +9,14 @@ body{
 
 .titulo{
     margin-block-end: 0px;
+    font-size: 50px;
+    text-align:center
 }
 
 .subtitulo{
     margin-block-start: 0px;
     font-weight: 200;
+    text-align:center
 }
 
 .header {
@@ -51,7 +54,7 @@ footer {
     display: inline-block;
 }
 
-.rex {
+.oasis {
     border: solid 3px;
     margin: 30px;
     vertical-align: middle;
@@ -61,7 +64,7 @@ footer {
     text-align:center
 }
 
-.projeto {
+.produto {
     width: 400px;
     height: 400px;
     padding: 20px;
@@ -71,21 +74,22 @@ footer {
     margin-bottom: 30px;
 }
 
-.img-projeto {
+.img-produto {
     border: solid 2px;
     vertical-align: middle;
-    width: 350px
+    max-width: 350px;
+    max-height: 200px
 }
 
-.body-projeto {
+.body-produto {
     background-color: white;
     border: 2px solid;
     padding: 10px;
-    text-align: justify;
-    height: 100px;
+    text-align: center;
+    height: 80px;
 }
 
-.link-projeto {
+.link-produto {
     border: 2px;
     border-style: outset;
     padding: 5px;
@@ -97,5 +101,10 @@ footer {
 
 legend {
     font-size: 22px;
+    font-weight: bold;
+}
+
+.preco {
+    color: blue;
     font-weight: bold;
 }

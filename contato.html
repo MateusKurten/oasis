@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Mateus Kurten</title>
+    <title>OASIS STORE</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -16,41 +16,38 @@
 <body>
     <nav class="header">
         <a class="linkHeader" href="index.html">PÁGINA INICIAL</a>
-        <a class="linkHeader" href="curriculo.html">CURRÍCULO</a>
-        <a class="linkHeader" href="portfolio.html">PORTFÓLIO</a>
+        <a class="linkHeader" href="produtos.html">PRODUTOS</a>
+        <a class="linkHeader" href="localizacao.html">LOCALIZACAO</a>
         <a class="linkHeader" href="contato.html">CONTATO</a>
     </nav>
 
     <main class="container">
-        <h1 class="titulo">Currículo Mateus Kurten Rodrigues - Contato</h1>
-        <h3 class="subtitulo">Engenheiro Químico e Estudante de Ciência da Computação</h3>
+        <h1 class="titulo">Entre em Contato!</h1>
     
-        <section class="secao" style="min-height: 620px;">
-            <div class="inline">
-                <article class="projeto">
-                    <img class="img-projeto" src="github.png">
-                    <div style="width: 400px">
-                        <a href="https://github.com/MateusKurten" class="link-projeto" target="_blank">GITHUB</a>
-                    </div>
-                </article>
-
-                <article class="projeto">
-                    <img class="img-projeto" src="linkedin.png">
-                    <div style="width: 400px">
-                        <a href="https://www.linkedin.com/in/mateus-kurten" class="link-projeto" target="_blank">LINKEDIN</a>
-                    </div>
-                </article>
-
-                <article class="projeto">
-                    <img class="img-projeto" src="gmail.png">
-                    <div style="width: 400px">
-                        <a href="mailto:eng.mateuskurten@gmail.com" class="link-projeto" target="_blank">EMAIL (eng.mateuskurten@gmail.com)</a>
-                    </div>
-                </article>
+        <section style="min-height: 620px;">
+            <div>
+                <form method="post">
+                    <fieldset>
+                        <legend>Formulário de contato</legend>
+                        <label for="idNome">Nome:</label><br>
+                        <input id="idNome"" name="txtNome" type="text" style="width: 30%" required/><br><br>
+                        <label for="idEmail">Insira seu e-mail:</label><br>
+                        <input id="idEmail" name="txtEmail" type="email"style="width: 30%" required /><br><br>
+                        <label for="idMensagem">Mensagem:</label><br>
+                        <textarea rows="10" cols=150 name="txtMensagem" id="idMensagem"></textarea><br><br>
+                        <!-- Caso fosse enviar o form de verdade: <input type="submit" value="Enviar"> -->
+                        <button onclick="alert('Esta é uma loja fictícia!')" class="link-produto" target="_blank">Enviar</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
 
-    <footer>Currículo Mateus Kürten Rodrigues @ 2021</footer>
+    <footer>
+        OASIS STORE @ 2021 -
+        <a href="https://mateuskurten.github.io/curriculo/" target="_blank" style="color: white;">Currículo</a> - 
+        <a href="https://github.com/MateusKurten" target="_blank" style="color: white;">LinkedIn</a> - 
+        <a href="https://www.linkedin.com/in/mateus-kurten" target="_blank" style="color: white;">GitHub</a>
+    </footer>
 </body>
 </html>
